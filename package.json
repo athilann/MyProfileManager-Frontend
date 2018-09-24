@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "webpack-dev-server",
     "start": "node server.js",
-    "heroku-postbuild": "webpack -p",
+    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "keywords": [],
