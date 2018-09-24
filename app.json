@@ -1,0 +1,15 @@
+{
+  "name": "MyProfileManager-Frontend",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
