@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development",
-    "start": "webpack-dev-server",
+    "dev": "webpack-dev-server",
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p",
     "build": "cross-env NODE_ENV=production webpack --mode production"
   },
   "keywords": [],
@@ -21,6 +22,7 @@
     "babel-preset-react": "^6.24.1",
     "cross-env": "^5.2.0",
     "css-loader": "^0.28.11",
+    "express": "^4.16.3",
     "file-loader": "^1.1.11",
     "font-awesome": "^4.7.0",
     "ionicons": "^4.2.1",
